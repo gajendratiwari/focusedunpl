@@ -1,0 +1,42 @@
+.contact {
+  grid-column: container-start / container-end;
+  background-image: linear-gradient(
+    var(--color-primary),
+    var(--color-quaternary-m)
+  );
+
+  &__content {
+    @extend %sec-padding;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    &--title {
+      height: 45vh;
+      @extend %sec-heading;
+      text-align: center;
+      padding: 10rem 0;
+      background-size: cover;
+      background-position: center;
+      background-image: linear-gradient(
+          var(--color-quaternary-m),
+          var(--color-quaternary)
+        ),
+        url("./assets/img/contact/contacttitle_bg.jpg");
+    }
+    &__card {
+      @extend %sec-padding;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+
+      &--heading {
+        @extend %sec-heading;
+      }
+      &--para {
+        @extend %sec-para;
+      }
+    }
+  }
+}
