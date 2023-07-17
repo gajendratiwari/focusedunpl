@@ -3,7 +3,7 @@ import Features from "../features/Features";
 import Header from "../header/Header";
 import Motto from "../motto/Motto";
 import Register from "../register/Register";
-import Scroll from "../scroll/Scroll";
+
 import ShowCase from "../showCase/ShowCase";
 import Testimonial from "../testimonial/Testimonial";
 import Trainer from "../trainer/Trainer";
@@ -34,8 +34,6 @@ const LandingPage = () => {
       {/* **************************** Clients section *************************** */}
 
       <Client />
-      {/* **************************** Scroll section *************************** */}
-      <Scroll />
 
       {/* **************************** Register section *************************** */}
 

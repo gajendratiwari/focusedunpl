@@ -5,37 +5,88 @@
      "id": "1",
         "title": "Web Design",
         "description":
-          "Get hands-on training in user-centric design research, design thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects." 
+          "Get hands-on training in user-centric design research, design thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects." ,
+
+          "short_introduction": "introduction here",
+          "course_information":" course information here",
+          "what_you_learn":"what you learn in course here",
+          "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+            
+       
+          "requriements":"course requirements here",
+          "requirements_list": ["None required, it's beginner friendly"]
+
+
         },
         {
            "id": "2",
             "title": "Graphic Design",
             "description":
-              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects."
+              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects.",
+              "short_introduction": "introduction here",
+              "course_information":" course information here",
+              "what_you_learn":"what you learn in course here",
+              "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+                
+           
+              "requriements":"course requirements here",
+              "requirements_list": ["None required, it's beginner friendly"]
         },
           {
             "id": "3",
             "title": "Diploma In Computing",
             "description":
-              " Get hands-on training in user-centric design research, design thinking, HTML/CSS & more. Build a UX design portfolio of dynamic projects to help you stand out from the crowd. Hands-on classes. Real-world projects."
+              " Get hands-on training in user-centric design research, design thinking, HTML/CSS & more. Build a UX design portfolio of dynamic projects to help you stand out from the crowd. Hands-on classes. Real-world projects.",
+              "short_introduction": "introduction here",
+              "course_information":" course information here",
+              "what_you_learn":"what you learn in course here",
+              "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+                
+           
+              "requriements":"course requirements here",
+              "requirements_list": ["None required, it's beginner friendly"]
           },
           {
             "id": "4",
             "title": "CISCO Routing & Switching",
             "description":
-              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects."
+              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects.",
+              "short_introduction": "introduction here",
+              "course_information":" course information here",
+              "what_you_learn":"what you learn in course here",
+              "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+                
+           
+              "requriements":"course requirements here",
+              "requirements_list": ["None required, it's beginner friendly"]
           },
           {
             "id": "5",
             "title": "Hardware and Networking",
             "description":
-              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects."
+              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects.",
+              "short_introduction": "introduction here",
+              "course_information":" course information here",
+              "what_you_learn":"what you learn in course here",
+              "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+                
+           
+              "requriements":"course requirements here",
+              "requirements_list": ["None required, it's beginner friendly"]
           },
           {
            " id": "6",
             "title": "Accounting Package",
             "description":
-              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects."
+              "Get hands-on training in user-centric design research, design  thinking, HTML/CSS & more. Build a UX design portfolio of dynamic  projects to help you stand out from the crowd. Hands-on classes. Real-world projects.",
+              "short_introduction": "introduction here",
+              "course_information":" course information here",
+              "what_you_learn":"what you learn in course here",
+              "learning_list": ["How to code CSS in 2023 by building realistic projects from scratch and seeing how it all fits together", "Implement simple-to-complex layouts with Flexbox & CSS Grid","Implement awesome CSS animations + transitions"],
+                
+           
+              "requriements":"course requirements here",
+              "requirements_list": ["None required, it's beginner friendly"]
           }
       
     ],
@@ -89,16 +140,15 @@
 
 
       ],
-      "Dummy":[
+      "About":[
         {
           "id": 1,
-          "name": "John Doe",
-          "email": "johndoe@example.com"
-        },
-        {
-          "id": 2,
-          "name": "Jane Smith",
-          "email": "janesmith@example.com"
+          "title": "Our vision is to be the most trusted and respected education consultancy in Pokhara by offering honest and unbiased career guidance to our students.",
+          "who_we_are": "Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam",
+          "how_we_work":" Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam",
+          "founder_story":" More than two decades ago,  started a web design a. More than two decades ago, Ben Chestnut and Dan Kurzius started a web design a."
         }
       ]
+
+      
     }

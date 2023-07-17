@@ -494,28 +494,12 @@ i {
   }
 }
 
-.features__content:nth-child(1) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-1.jpg");
+.features__content:nth-child(2n+0) {
+  background: linear-gradient(90deg, rgb(36, 18, 0) 0%, rgba(102, 9, 121, 0.976650035) 35%, rgba(0, 71, 255, 0.0186668417) 100%);
 }
 
-.features__content:nth-child(2) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-2.jpg");
-}
-
-.features__content:nth-child(3) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-3.jpg");
-}
-
-.features__content:nth-child(4) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-4.jpg");
-}
-
-.features__content:nth-child(5) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-5.jpg");
-}
-
-.features__content:nth-child(6) {
-  background-image: linear-gradient(var(--color-tertiary-m), var(--color-tertiary-m)), url("./assets/img/features/features-6.jpg");
+.features__content:nth-child(odd) {
+  background: linear-gradient(250deg, rgba(36, 0, 24, 0.2875744048) 0%, rgba(102, 9, 121, 0.976650035) 35%, rgba(0, 71, 255, 0.7413559174) 100%);
 }
 
 @-webkit-keyframes border1 {
@@ -733,6 +717,7 @@ i {
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 2rem;
   place-content: center;
+  overflow: auto;
 }
 .motto__content {
   display: grid;
@@ -1548,7 +1533,7 @@ i {
   }
 }
 
-.clients, .features__content:nth-child(1), .features__content:nth-child(2), .features__content:nth-child(3), .features__content:nth-child(4), .features__content:nth-child(5), .features__content:nth-child(6), .footer, .motto, .register, .testimonials, .showcase, .about, .classes__content, .classDetails {
+.clients, .footer, .motto, .register, .testimonials, .showcase, .about, .classes__content, .classDetails {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

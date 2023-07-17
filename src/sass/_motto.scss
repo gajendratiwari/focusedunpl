@@ -9,7 +9,7 @@
   grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   grid-gap: 2rem;
   place-content: center;
-
+  overflow: auto;
   &__content {
     display: grid;
     grid-row-gap: 4vh;

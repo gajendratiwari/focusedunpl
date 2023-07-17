@@ -131,15 +131,32 @@
   }
 }
 
-@for $img from 1 through 6 {
-  .features__content:nth-child(#{$img}) {
-    background-image: linear-gradient(
-        var(--color-tertiary-m),
-        var(--color-tertiary-m)
-      ),
-      url("./assets/img/features/features-#{$img}.jpg");
-    @extend %bg;
-  }
+// @for $img from 1 through 6 {
+//   .features__content:nth-child(#{$img}) {
+//     background-image: linear-gradient(
+//         var(--color-tertiary-m),
+//         var(--color-tertiary-m)
+//       ),
+//       url("./assets/img/features/features-#{$img}.jpg");
+//     @extend %bg;
+//   }
+// }
+
+.features__content:nth-child(2n + 0) {
+  background: linear-gradient(
+    90deg,
+    rgba(36, 18, 0, 1) 0%,
+    rgba(102, 9, 121, 0.9766500350140056) 35%,
+    rgba(0, 71, 255, 0.01866684173669464) 100%
+  );
+}
+.features__content:nth-child(odd) {
+  background: linear-gradient(
+    250deg,
+    rgba(36, 0, 24, 0.28757440476190477) 0%,
+    rgba(102, 9, 121, 0.9766500350140056) 35%,
+    rgba(0, 71, 255, 0.7413559173669468) 100%
+  );
 }
 
 @keyframes border1 {

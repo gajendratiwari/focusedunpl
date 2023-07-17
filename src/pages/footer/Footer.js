@@ -4,6 +4,7 @@ import { BsFacebook } from "react-icons/bs";
 import { BsYoutube } from "react-icons/bs";
 import { FaTwitter } from "react-icons/fa";
 import { BsInstagram } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 const Footer = (props) => {
   return (
@@ -16,40 +17,34 @@ const Footer = (props) => {
           <h3 className="footer__content--about-us__title footer__content--section__title">
             About us
           </h3>
-          {/* <a
-            href="#"
-            className="footer__content--about-us__link footer__content--section__link"
-          >
-            gYmantic in a nutshell
-          </a> */}
 
-          <a
-            href="#"
+          <Link
+            to="about"
             className="footer__content--about-us__link footer__content--section__link"
           >
             What we do
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="about"
             className="footer__content--about-us__link footer__content--section__link"
           >
             History
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="https://www.google.com/search?q=focus+it+education&rlz=1C5CHFA_enAU876AU876&oq=fo&aqs=chrome.0.69i59j69i64j69i57j69i59j69i60l4.6955j0j4&sourceid=chrome&ie=UTF-8"
             className="footer__content--about-us__link footer__content--section__link"
           >
             Location
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="about"
             className="footer__content--about-us__link footer__content--section__link"
           >
             Management Team
-          </a>
+          </Link>
         </div>
 
         {/* <!-- Classes --> */}
@@ -58,40 +53,40 @@ const Footer = (props) => {
           <h3 className="footer__content--classes__title footer__content--section__title">
             Classes
           </h3>
-          <a
-            href="#"
+          <Link
+            to="classes"
             className="footer__content--classes__link footer__content--section__link"
           >
             Overview
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="classes"
             className="footer__content--classes__link footer__content--section__link"
           >
             Classes alternate view
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="classes"
             className="footer__content--classes__link footer__content--section__link"
           >
             Class Pricing
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="classes"
             className="footer__content--classes__link footer__content--section__link"
           >
             Single Class
-          </a>
+          </Link>
 
-          <a
-            href="#"
+          <Link
+            to="contact"
             className="footer__content--classes__link footer__content--section__link"
           >
             Find out more
-          </a>
+          </Link>
         </div>
 
         {/* <!-- Newsletter --> */}
@@ -149,35 +144,38 @@ const Footer = (props) => {
         {/* <!-- Social Icons --> */}
         <div className="footer__social--icons">
           {/* <!-- Facebook --> */}
-          <a href="#" className="footer__social--icons__link">
+          <Link
+            to="https://www.facebook.com/focusiteducation/"
+            className="footer__social--icons__link"
+          >
             <i className="fab fa-facebook-f">
               <BsFacebook />
             </i>
-          </a>
+          </Link>
 
           {/* <!-- Instagram --> */}
-          <a href="#" className="footer__social--icons__link">
+          <Link to="#" className="footer__social--icons__link">
             <i className="fab fa-instagram">
               {" "}
               <BsInstagram />
             </i>
-          </a>
+          </Link>
 
           {/* <!-- Twitter --> */}
-          <a href="#" className="footer__social--icons__link">
+          <Link to="#" className="footer__social--icons__link">
             <i className="fab fa-twitter">
               {" "}
               <FaTwitter />
             </i>
-          </a>
+          </Link>
 
           {/* <!-- YouTube --> */}
-          <a href="#" className="footer__social--icons__link">
+          <Link to="#" className="footer__social--icons__link">
             <i className="fab fa-youtube">
               {" "}
               <BsYoutube />
             </i>
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
