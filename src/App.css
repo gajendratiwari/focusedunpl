@@ -714,16 +714,19 @@ i {
   grid-column: container-start/container-end;
   background-image: url("./assets/img/motto/motto-bg.jpg");
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 1rem;
   place-content: center;
-  overflow: auto;
 }
 .motto__content {
   display: grid;
-  grid-row-gap: 4vh;
   background-color: var(--color-tertiary-m);
-  padding: 2rem;
+}
+.motto__content--title {
+  margin-left: 1rem;
+}
+.motto__content--para {
+  margin-left: 1rem;
 }
 .motto__content--link:link, .motto__content--link:visited {
   background: none;
@@ -1273,20 +1276,23 @@ i {
   align-items: center;
   justify-content: center;
   text-align: center;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin: 10px;
   max-height: 20rem;
+  overflow: hidden;
   transition: transform 0.2s ease-in-out;
   box-shadow: 0 4px 8px 0 rgba(245, 5, 5, 0.2), 0 6px 20px 0 rgba(235, 12, 12, 0.19);
 }
 .about__content__founder--card2 img {
   width: 100%;
-  height: 20rem;
+  height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 2rem;
+  -o-object-position: center;
+     object-position: center;
 }
 .about__content__founder--card2--name {
-  bottom: 0 !important;
   padding-bottom: 4rem;
 }
 .about__content__founder--card2:hover, .about__content__founder--card2:active {
@@ -1303,8 +1309,8 @@ i {
     flex-basis: 100%;
   }
   .about__content__founder--card2 img {
-    -o-object-fit: contain;
-       object-fit: contain;
+    -o-object-fit: cover;
+       object-fit: cover;
     -o-object-position: center;
        object-position: center;
   }
@@ -1341,13 +1347,13 @@ i {
 }
 .classes__heading {
   display: grid;
-  grid-column: span 3;
+  grid-column: 1/-1;
   height: 75vh;
+  align-items: center;
   background: linear-gradient(217deg, rgba(232, 249, 231, 0.8), rgba(213, 243, 130, 0) 70.71%), linear-gradient(127deg, rgba(9, 15, 9, 0.8), rgba(6, 9, 6, 0) 70.71%), linear-gradient(336deg, rgba(1, 1, 37, 0.8), rgba(0, 0, 12, 0) 70.71%);
 }
 .classes__heading--title {
   text-align: center;
-  padding: 30vh;
 }
 .classes__content {
   display: grid;
@@ -1543,7 +1549,7 @@ i {
   padding: 6vh 4vh;
 }
 
-.clients__title, .features__content--title, .motto__content--title, .testimonials__title, .trainers__title, .about__heading--title, .about__content__founder--card2--name, .contact__content--title, .contact__content__card--heading, .classes__heading--title, .classDetails__content--heading--title {
+.clients__title, .features__content--title, .testimonials__title, .trainers__title, .about__heading--title, .contact__content--title, .contact__content__card--heading, .classes__heading--title, .classDetails__content--heading--title {
   font-size: calc(1.5rem + 2vw);
   font-weight: 300;
   letter-spacing: 0.2rem;
@@ -1557,7 +1563,7 @@ i {
   color: var(--color-quinary);
 }
 
-.footer__content--section__title, .testimonials__content--slider__slide--title, .trainers__content--card__name, .about__content--card--title, .about__content__founder--card1--title {
+.footer__content--section__title, .motto__content--title, .testimonials__content--slider__slide--title, .trainers__content--card__name, .about__content--card--title, .about__content__founder--card1--title, .about__content__founder--card2--name {
   font-size: calc(1.2rem + 0.5vw);
   color: var(--color-quinary);
 }

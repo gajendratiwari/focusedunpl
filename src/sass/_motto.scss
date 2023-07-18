@@ -6,22 +6,22 @@
   @extend %sec-padding;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+  grid-gap: 1rem;
   place-content: center;
-  overflow: auto;
+
   &__content {
     display: grid;
-    grid-row-gap: 4vh;
     background-color: var(--color-tertiary-m);
-    padding: 2rem;
 
     &--title {
-      @extend %sec-heading;
+      @extend %sec-h3;
+      margin-left: 1rem;
     }
 
     &--para {
       @extend %sec-para;
+      margin-left: 1rem;
     }
 
     &--link:link,

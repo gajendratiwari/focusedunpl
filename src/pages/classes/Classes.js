@@ -1,6 +1,8 @@
+import React from "react";
 import { Link, useParams } from "react-router-dom";
 import { useLoaderData } from "react-router-dom";
 import data from "../../assets/data/data.json";
+
 const Classes = () => {
   const params = useParams();
   const data = useLoaderData();

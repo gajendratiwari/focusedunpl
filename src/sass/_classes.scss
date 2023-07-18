@@ -7,8 +7,9 @@
 
   &__heading {
     display: grid;
-    grid-column: span 3;
+    grid-column: 1 / -1;
     height: 75vh;
+    align-items: center;
     background: linear-gradient(
         217deg,
         rgba(232, 249, 231, 0.8),
@@ -19,7 +20,6 @@
     &--title {
       @extend %sec-heading;
       text-align: center;
-      padding: 30vh;
     }
   }
 
@@ -155,9 +155,9 @@
     &--link:active {
       background-color: var(--color-primary);
     }
+    //*-*-*-*-*-*-*-*-*-*-- The 400px Mark Break Point *-*-*-*-*-*-*-*-*-*-*
   }
 
-  //*-*-*-*-*-*-*-*-*-*-- The 400px Mark Break Point *-*-*-*-*-*-*-*-*-*-*
   @include media-small {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   }
