@@ -36,12 +36,12 @@ const Header = (props) => {
   };
 
   return (
-    <header className={`${isActive ? "header" : "header open"}`}>
+    <header
+      onClick={handleToggle}
+      className={`${isActive ? "header" : "header open"}`}
+    >
       {/* <!-- Hamburger Lines Container --> */}
-      <div
-        onClick={handleToggle}
-        className={`${isActive ? "header__menu" : "header__menu open"}`}
-      >
+      <div className={`${isActive ? "header__menu" : "header__menu open"}`}>
         <div className="header__menu--line"></div>
       </div>
 
@@ -84,18 +84,6 @@ const Header = (props) => {
               Contact Us
             </Link>
           </li>
-
-          {/* <li className="header__nav--links__item">
-            <Link to="#" data-text="News">
-              News
-            </Link>
-          </li>
-
-          <li className="header__nav--links__item">
-            <Link to="#" data-text="Shop">
-              Shop
-            </Link>
-          </li> */}
 
           <div className="header__nav--links__toggle-container">
             <input

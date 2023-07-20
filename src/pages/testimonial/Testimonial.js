@@ -2,6 +2,8 @@ import React, { useRef, useEffect, useState } from "react";
 import img1 from "../../assets/img/testimonials/testimonial-1.jpg";
 import img2 from "../../assets/img/testimonials/testimonial-2.jpg";
 import img3 from "../../assets/img/testimonials/testimonial-3.jpg";
+import data from "../../assets/data/data.json";
+
 const Testimonial = (props) => {
   const indicatorImgsRef = useRef();
   const sliderRef = useRef();
@@ -12,7 +14,7 @@ const Testimonial = (props) => {
     for (let i = 0; i < indicatorImgs.length; i++) {
       indicatorImgs[i].addEventListener("click", function () {
         // console.log(this.getAttribute("data-id"));
-
+        // console.log(slides);
         // Getting The Slide Imgas
         for (let j = 0; j < indicatorImgs.length; j++) {
           indicatorImgs[j].classList.remove("active");
@@ -31,43 +33,40 @@ const Testimonial = (props) => {
     }
   }, [indicatorImgsRef, sliderRef]);
 
+  // {`App ${border}`}
+
   return (
     <section className="testimonials">
       <h2 className="testimonials__title">Testimonials</h2>
       <div className="testimonials__content">
         <div className="testimonials__content--slider" ref={sliderRef}>
-          <div className="testimonials__content--slider__slide active">
-            <p className="testimonials__content--slider__slide--para">
-              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              autem placeat natus iste aut inventore voluptas nesciunt
-              consectetur quod sint. "
-            </p>
-            <h3 className="testimonials__content--slider__slide--title">
-              Natasha Barton
-            </h3>
-          </div>
-
-          <div className="testimonials__content--slider__slide">
-            <p className="testimonials__content--slider__slide--para">
-              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              autem placeat natus iste aut inventore voluptas nesciunt
-              consectetur quod sint. "
-            </p>
-            <h3 className="testimonials__content--slider__slide--title">
-              Ryan Cavill
-            </h3>
-          </div>
-
-          <div className="testimonials__content--slider__slide">
-            <p className="testimonials__content--slider__slide--para">
-              " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              autem placeat natus iste aut inventore voluptas nesciunt
-              consectetur quod sint. "
-            </p>
-            <h3 className="testimonials__content--slider__slide--title">
-              Sandra Rogers
-            </h3>
-          </div>
+          {data.Testimonials.map((value, id) =>
+            id === 0 ? (
+              <div
+                className="testimonials__content--slider__slide active 
+                   "
+              >
+                <p className="testimonials__content--slider__slide--para">
+                  {value.Description}
+                </p>
+                <h3 className="testimonials__content--slider__slide--title">
+                  {value.Name}
+                </h3>
+              </div>
+            ) : (
+              <div
+                className="testimonials__content--slider__slide 
+              "
+              >
+                <p className="testimonials__content--slider__slide--para">
+                  {value.Description}
+                </p>
+                <h3 className="testimonials__content--slider__slide--title">
+                  {value.Name}
+                </h3>
+              </div>
+            )
+          )}
         </div>
 
         <div

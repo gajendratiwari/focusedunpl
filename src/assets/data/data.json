@@ -98,7 +98,7 @@
           
       },
       {
-        "Name": "Saroj Bhandari",
+        "Name": "Devendra Raj Tiwari",
         "Specialist": "Accounting ",
         "url": "../../trainers/trainer-8.jpg"
       },
@@ -111,16 +111,17 @@
     ]   ,
     "Testimonials": [
         {
-          "Name": "Bishal Bhandari",
-          "Description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto autem placeat natus iste aut inventore voluptas nesciunt consectetur quod sint.  "
+         
+          "Name": "Prashant Gurung",
+          "Description": "The course was well organized, clear, and easy to follow and the instructors were quite knowledgeable, supportive, and responsive. I highly recommend Focus IT Educatio to everyone "
         },
         {
-          "Name": "Saroj Bhandari",
-          "Description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto autem placeat natus iste aut inventore voluptas nesciunt consectetur quod sint. "
+          "Name": "Sailendra Tiwari",
+          "Description": " Focus IT Educatio is the perfect option for someone who wants to change their career and start a new chapter to become an IT specialist. In my case, it was a smooth and fast transition – I had a job offer just right after graduation. The course is well-structured, written in an accessible way, and provides all the necessary knowledge to be a competitive candidate in the job market. "
         },
         {
-          "Name": "Sunil Karki",
-          "Description": " Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto autem placeat natus iste aut inventore voluptas nesciunt consectetur quod sint. "
+          "Name": "Anil Devkota",
+          "Description": " Fair, well organized, and a good amount of material. If you are totally new to testing this is your course. This was my first time taking a class with Focus IT Educatio, so the experience was unique to me. I wasn’t quite sure what to expect, but I am very pleased with this format. The instructors were very knowledgeable, all the concepts were clearly explained and the corresponding assignments were useful to understand and implement the learned concepts. "
         }
          
       ] ,
