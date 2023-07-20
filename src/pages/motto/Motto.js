@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../../assets/data/data.json";
+import { Link } from "react-router-dom";
 
 const Motto = (props) => {
   return (
@@ -9,13 +10,13 @@ const Motto = (props) => {
           <div key={id} className="motto__content">
             <h2 className="motto__content--title">{motto.Title}</h2>
             <p className="motto__content--para">{motto.Description}</p>
-            <a href="about" className="motto__content--link">
+            <Link to="about" className="motto__content--link">
               <span></span>
               <span></span>
               <span></span>
               <span></span>
               Find Out More
-            </a>
+            </Link>
           </div>
         );
       })}
